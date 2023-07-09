@@ -1,0 +1,90 @@
+body
+{
+  background-image:url("background_img.png");
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.logo img {
+  display: block;
+  margin: 0 ;
+  width: 200px;
+}
+h1{
+  font-family: 'Delius', Times, serif;
+  color: gold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color:gold;
+  font-weight: bold;
+  font-family: 'Delius', Times, serif;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  color:rgb(0, 0, 0);
+  font-family: 'Delius', Times, serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: gold;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  position: absolute;
+  top: 318px;
+  right: 0;
+  background-color: grey;
+}
+#showTableButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4285F4;
+  font-family: 'Delius', Times, serif;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tableContainer table {
+  margin: 0 auto;
+}
+
+#tableContainer table th, td {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableContainer table th{
+  background-color: #4285F4;
+}
