@@ -106,3 +106,4 @@ showTableButton.addEventListener('click', toggleTable);
 })();
 
 
+

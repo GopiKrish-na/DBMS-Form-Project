@@ -1,6 +1,9 @@
 body
 {
   background-image:url("background_img.png");
+  margin: 0;
+  padding: 0;
+  
 }
 form {
   max-width: 500px;
@@ -11,7 +14,7 @@ form {
 .logo img {
   display: block;
   margin: 0 ;
-  width: 200px;
+  width: 150px;
 }
 h1{
   font-family: 'Delius', Times, serif;
@@ -87,4 +90,37 @@ input[type="button"] {
 
 #tableContainer table th{
   background-color: #4285F4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+} 
+.socials  {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  
+  
+}
+
+
+.socials a {
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.socials a:hover {
+  color: #ffd700; /* Change the color on hover to make the icons more visible */
 }
